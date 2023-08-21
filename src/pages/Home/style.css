@@ -1,0 +1,88 @@
+/*            SECTION 1              */
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 4rem 10rem 0 10rem;
+}
+
+.section1 .context {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.section1 .context .title {
+    width: 70%;
+    text-align: flex-start;
+}
+
+.section1 .context .title span {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.section1 .context .services {
+    display: flex;
+    width: 70%;
+    gap: 2rem;
+}
+
+.section1 .context .services .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+
+.section1 .context .services .service span {
+    font-size: 1.1rem;
+}
+
+.section1 .context .services .service .icon {
+    font-size: 1.5rem;
+}
+
+.section1 .context .view-services {
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+}
+
+.section1 .context .view-services button {
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    font-weight: 500;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.section1 .context .view-services button:hover {
+    transform: scale(1.06);
+    transition: ease 0.5s;
+}
+
+.section1 .image {
+    width: 45%;
+
+}
+
+.section1 .image img {
+    width: 600px;
+    height: 600px;
+}
+
+
+/*            SECTION 2              */
+

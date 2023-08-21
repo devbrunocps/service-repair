@@ -10,9 +10,7 @@ export default function RootLayout() {
                 <Navbar />
             </header>
             <Outlet />
-            <footer>
-                <Footer />
-            </footer>
+           
         </>
     )
 }
